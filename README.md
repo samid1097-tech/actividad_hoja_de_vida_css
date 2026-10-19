@@ -11,8 +11,8 @@ Sitio personal con mi hoja de vida y mis proyectos.
 
 ## Mockups
 ### Hoja de vida
-![Inicio en celular](mockups/inicio-cel.png)
-![Inicio en computador](mockups/inicio-pc.png)
+![Inicio en celular](mockups/Inicio-cel.png)
+![Inicio en computador](mockups/Inicio-pc.png)
 
 ### Proyectos
 ![Proyectos en celular](mockups/Proyectos-cel.png)
