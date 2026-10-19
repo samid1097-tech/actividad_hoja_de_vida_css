@@ -1,0 +1,69 @@
+/* Colores y base */
+:root { 
+  --verde: #284470;
+  --claro: #eef3fa;
+  --texto: #1f2937; }
+
+* { box-sizing: border-box; }
+
+body {
+  margin: 0 auto;
+  font-family: system-ui, Arial, sans-serif;
+  line-height: 1.6;
+  color: var(--texto);
+  background: #fff;
+}
+
+
+.pagina, body {
+  display: grid;
+  grid-template-areas:
+    "cabecera"
+    "menu"
+    "principal"
+    "pie";
+  grid-template-columns: 1fr;
+}
+
+
+body { max-width: 70rem; width: 100%; }
+
+.cabecera { grid-area: cabecera; display: flex; align-items: center; gap: 1rem; padding: 1.5rem 1rem; background: var(--verde); color: #fff; }
+.cabecera h1 { margin: 0; font-size: 1.6rem; }
+.cabecera p { margin: 0; }
+
+
+img { max-width: 100%; height: auto; }
+.avatar { border-radius: 0.5rem; border: 2px solid #fff; }
+
+.menu { grid-area: menu; display: flex; flex-direction: column; background: var(--claro); border-bottom: 2px solid var(--verde); }
+.menu a { padding: 0.8rem 1rem; color: var(--verde); text-decoration: none; font-weight: 600; }
+.menu a:hover, .menu a.activo { background: var(--verde); color: #fff; }
+
+.principal { grid-area: principal; padding: 1rem; }
+.principal h2 { color: var(--verde); border-bottom: 2px solid var(--claro); padding-bottom: 0.3rem; }
+
+.pie { grid-area: pie; padding: 1rem; background: var(--claro); text-align: center; font-size: 0.9rem; }
+.pie a { color: var(--verde); }
+
+.tarjetas { display: grid; grid-template-columns: repeat(auto-fit, minmax(14rem, 1fr)); gap: 1rem; }
+.tarjeta { padding: 1rem; border: 1px solid #b8cce6; border-radius: 0.5rem; background: var(--claro); }
+.tarjeta h3 { margin-top: 0; color: var(--verde); }
+
+
+@media (min-width: 600px) {
+  .cabecera h1 { font-size: 2.2rem; }
+  .menu { flex-direction: row; }
+  .principal { padding: 1.5rem 2rem; }
+}
+
+@media (min-width: 1024px) {
+  body {
+    grid-template-areas:
+      "cabecera cabecera"
+      "menu     principal"
+      "pie      pie";
+    grid-template-columns: 14rem 1fr;
+  }
+  .menu { flex-direction: column; border-bottom: 0; border-right: 2px solid var(--verde); }
+}
