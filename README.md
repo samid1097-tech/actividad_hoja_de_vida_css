@@ -11,16 +11,16 @@ Sitio personal con mi hoja de vida y mis proyectos.
 
 ## Mockups
 ### Hoja de vida
-![Inicio en celular](mockups/inicio-celular.png)
-![Inicio en computador](mockups/inicio-computador.png)
+![Inicio en celular](mockpus/inicio-cel.png)
+![Inicio en computador](mockups/Inicio-pc.png)
 
 ### Proyectos
-![Proyectos en celular](mockups/proyectos-celular.png)
-![Proyectos en computador](mockups/proyectos-computador.png)
+![Proyectos en celular](mockups\Proyectos-cel.png)
+![Proyectos en computador](mockups\Proyectos-pc.png)
 
 ### Contacto
-![Contacto en celular](mockups/contacto-celular.png)
-![Contacto en computador](mockups/contacto-computador.png)
+![Contacto en celular](mockups\Contacto-cel.png)
+![Contacto en computador](mockups\Contacto-pc.png)
 
 ## Capturas del sitio publicado
 ![Celular (dispositivo real)](capturas/celular.png)
@@ -32,7 +32,9 @@ Sitio personal con mi hoja de vida y mis proyectos.
 - Desde 1024px: el menú pasa a la izquierda y el contenido a la derecha (grid con áreas `cabecera`, `menu`, `principal`, `pie`).
 
 ## Cómo lo publiqué
-1. (Escribe aquí, con tus palabras, los pasos que seguiste.)
+1. (1. cree el repositorio en github )
+2. (Subí mis archivos (index.html, proyectos.html, contacto.html, styles.css y las carpetas img/ y mockups/) con git add . y guarde los cambios con git commit )
+3. (subi el proyecto a mi repositorio con git psuh)
 
 ## Fuentes consultadas
-- (Escribe aquí los enlaces que usaste, por ejemplo docs.github.com.)
+- (mis feuntes para consultas fueron las diferentes diaositivas que se veiron durante las clases)
