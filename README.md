@@ -11,20 +11,20 @@ Sitio personal con mi hoja de vida y mis proyectos.
 
 ## Mockups
 ### Hoja de vida
-![Inicio en celular](mockpus/inicio-cel.png)
+![Inicio en celular](mockups/inicio-cel.png)
 ![Inicio en computador](mockups/Inicio-pc.png)
 
 ### Proyectos
-![Proyectos en celular](mockups\Proyectos-cel.png)
-![Proyectos en computador](mockups\Proyectos-pc.png)
+![Proyectos en celular](mockups/Proyectos-cel.png)
+![Proyectos en computador](mockups/Proyectos-pc.png)
 
 ### Contacto
-![Contacto en celular](mockups\Contacto-cel.png)
-![Contacto en computador](mockups\Contacto-pc.png)
+![Contacto en celular](mockups/Contacto-cel.png)
+![Contacto en computador](mockups/Contacto-pc.png)
 
 ## Capturas del sitio publicado
-![Celular (dispositivo real)](capturas/celular.png)
-![Computador](capturas/computador.png)
+![Celular (dispositivo real)](mockups/celular.png)
+![Computador](cmockups/computador.png)
 
 ## Breakpoints
 - Base (celular): todo en una columna; el menú queda debajo de la cabecera, en vertical.
