@@ -22,9 +22,6 @@ Sitio personal con mi hoja de vida y mis proyectos.
 ![Contacto en celular](mockups/Contacto-cel.png)
 ![Contacto en computador](mockups/Contacto-pc.png)
 
-## Capturas del sitio publicado
-![Celular (dispositivo real)](mockups/celular.png)
-![Computador](cmockups/computador.png)
 
 ## Breakpoints
 - Base (celular): todo en una columna; el menú queda debajo de la cabecera, en vertical.
